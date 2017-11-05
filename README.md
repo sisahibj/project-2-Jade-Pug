@@ -1,4 +1,4 @@
-# My Personal Workflow with PUG , ES6, SASS, NPM, and Gulp
+# Workflow with PUG , ES6, SASS, NPM, and Gulp
 My Web Workflow with PUG , ES6, SASS, NPM, Gulp, and more
 
 #Instructions
@@ -10,3 +10,6 @@ My Web Workflow with PUG , ES6, SASS, NPM, Gulp, and more
 
 3. - Run 'npm install ' to install the project dependencies    
 # project-2-Jade-Pug
+
+Built a basic project List page using Sass and Jade.
+
