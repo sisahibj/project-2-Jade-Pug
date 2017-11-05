@@ -1,0 +1,19 @@
+@import "variables";
+
+
+body{
+    padding-top: 40px;
+    font-size: $base;
+    font-family: $roboto-mono;
+    color: $text-color;
+    background-color: $bg-color;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+
+  p{
+    line-height: 13px;
+    font-size: 13px;
+  }

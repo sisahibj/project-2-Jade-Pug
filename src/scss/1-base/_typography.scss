@@ -1,0 +1,31 @@
+@import "../5-helpers/mixins";
+
+$heading-size-map: (
+   h1: 2.625rem,
+   h2: 1.7rem,
+);
+
+.text{
+  @include text(0, 45px, 0);
+}
+  
+
+.text--italic{
+  font-style: italic;
+}
+
+.text--uppercase{
+  text-transform: uppercase;
+}
+
+.text—-large{
+  font-size: 40px;
+}
+
+.text--center{
+  text-align: -webkit-center;
+}
+
+.spacing{
+  margin-bottom: -20px;
+}

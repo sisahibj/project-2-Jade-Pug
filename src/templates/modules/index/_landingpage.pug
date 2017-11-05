@@ -1,0 +1,95 @@
+header.nav-down#nav
+    h4.text--uppercase tristan bogat
+    h4.text--uppercase connect
+
+
+.main-page#about
+    .heading
+        p.header-logo.text--center.text--uppercase 
+            a(href="#projects")  tristan bagot
+        p.header.text--uppercase.text--center digital design + creative coding
+        p.text--uppercase.text--center selected projects
+
+
+// Project list mixin
+
+mixin list-item(artist_name, programmer)
+        h2.text #{artist_name}
+        p.text--uppercase #{programmer}
+          
+
+.content#projects
+    ul
+        li#kittem
+            +list-item('Kitten', 'development [x] design [vlf studio]')
+        li#charlesNegre  
+            +list-item('Charles Negre', '2016-development [x]')
+        li#RachelDeJoode
+           +list-item('Rachel de Joode', '2017 - development [x] design [vlf]')
+        li#soulwas
+            +list-item('Soulwax', '2016 - development [x] design [vlf]')
+        li#westernPromises
+            +list-item('Western Promises', '2016 - development [x] design [thomas herve studio]')
+        li#artifices
+            +list-item('Artifices', '2017 - development [x] design [vlf studio]')
+        li#lociAnima
+            +list-item('Loci Anima', '2017 - development [x] design [spassky fischer]')
+        li#nicolasHosteing
+            +list-item('Nicolas Hosteing', '2017 - development [x] design [spassky fischer]')
+        li#cellarDoor
+            +list-item('Cellar Door', '2017 - development [x] design [marietta eugster]')
+        li#oisinOrlandi
+             +list-item('Oisin Orlandi', '2017 - development [x] design [httb]')
+        li#xuZhi
+            +list-item('Xu Zhi', '2017 - development [x] design [vlf studio]')
+        li#manonWertenbroek
+            +list-item('Manon Wertenbroek', '2017 - development [x] design [x]')
+        li#erwanSene
+            +list-item('Erwan Sene', '2017 - development [x] design [x]')            
+        li#nobraPaper
+            +list-item('Nobra Paper', '2017 - development [x] design [httb]')
+        li#zoneDiscoAutonome
+            +list-item('Zone Disco Autonome', '2017 - development [x] design [x] art direction [bruits de la passion]')
+        li#zoneDiscoAutonome
+            +list-item('Atelier Calmos', '2017 - development [x] design [Atelier Calmos]')
+        li#pierrePierre
+            +list-item('Pierre Pierre', '2017 - development [x] design [x]')
+        li#jeremyVitte
+            +list-item('Jeremy Vitte', '2017 - development [x] design [thomas herve studio]')
+        li#estelleHanania
+            +list-item('Estelle Hanania', '2017 - development [x] design [vlf studio]')
+        li#marguesAlmeida
+            +list-item('Margues Almeida SS17', '2017 - development [x] design [ohlman gonsorti]')
+        li#liseSarfati
+            +list-item('Lise Sarfati', '2017 - development [x] design [spassky fischer]')
+        li#thomasHerveStudio
+            +list-item('Thomas Herve Studio', '2017 - development [x] design [Thomas Herve]')
+        li#maisonNue
+            +list-item('Maison Nue', '2017 - development [x] design [x]')
+        li#lucBraquet
+            +list-item('Luc Braquet', '2017 - development [x] design [x]')
+        li#francoisCoquerel
+            +list-item('Francois Coquerel', '2017 - development [x] design [x]')                                                                      
+            
+.address
+    ul.text--center
+        li 
+            h2.addressFormat Contributing to the internet with
+        li 
+            h2.addressFormat Algorithms [1] Graphics [2] Photograohy [3]
+        li 
+            h2.addressFormat.spacing from 2014 to 2017
+        p.text.text--uppercase.text--center hit keyboard number to discover
+
+    ul.text--center
+        li 
+            h2.addressFormat.spacing Based in Paris, France
+        p.text.text--uppercase.text--center n 48'53'12' - e 2'20'35'
+
+    ul.text--center
+        li 
+            h2.addressFormat.spacing Connect
+        p.text.text--uppercase.text--center write inspire follow
+
+.footer
+    p.text.text--uppercase.text--center © 2017, all rights reserved typeface : Robot main

@@ -1,0 +1,28 @@
+@mixin text($letter-spacing, $line-height, $word-spacing, $text-align: left){
+    letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    word-spacing: $word-spacing;
+    text-align: $text-align;
+  }
+  
+  @mixin background($imgpath,$position: center center,$background-size: cover, $repeat: no-repeat) {
+    background: {
+      image: url($imgpath);
+      position: $position;
+      size: $background-size;
+      repeat: $repeat;
+    }
+  }
+  
+  @mixin display-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @mixin image-box($width, $height){
+    width: $width;
+    height: $height;
+  }
+
+  

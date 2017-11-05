@@ -1,0 +1,78 @@
+$white:          #FFFFFF;
+$blue:           #0076A3;
+$dark-blue:      darken($blue, 10);
+$yellow:         #000;
+$green:          #548C27;
+$red:            #FE2D28;
+$black:          #000000;
+
+.test{
+  color: purple;
+
+}
+$bg-color: $blue;
+$text-color:  $black;
+
+$paragraph-font-size: 1.4rem;
+$paragraph-font-family: 'Open Sans', sans-serif;
+
+// navigation
+$nav-bg-color: $dark-blue;
+$menu-anchor-font-size: 1.4rem;
+$menu-anchor-hover-color: $yellow;
+$menu-achor-color: $white;
+
+//cards
+$card-bg-color: $white;
+$card-text-font-size: 1rem;
+
+// heading
+$heading-color: $yellow;
+$heading-font-family: 'Bitter', serif;
+$heading-font-weight: 700;
+
+//sass map function - use for heading tags
+$heading-font-size: (
+  h1: 40px,
+  h2: 36px,
+  h3: 32px,
+  h4: 28px,
+  h5: 24px,
+  h6: 20px
+);
+
+//visit
+$visit-border-color: $white;
+$visit-heading-color: lighten($yellow, 10);
+$visit-text-color: $white;
+
+//grid & responsive - sass map
+$breakpoints: (
+    phone: 480px,
+    tablet: 768px,
+    desktop: 1024px
+);
+
+$columns: 12;
+$grid-max-width: 1200px;
+
+//buttons
+$btn-font-size: 16px;
+$btn-font-weight: 700;
+
+//tables
+$table-font-size: 1rem;
+$table-caption-font-family: $heading-font-family;
+$table-caption-text-color: $yellow;
+$table-color: $white;
+$table-hover-bg-color: darken($yellow, 5);
+
+//services
+$paragraph-services-font-size: 1rem;
+$paragraph-services-color: $white;
+
+//footer
+$bg-footer: $dark-blue;
+$footer-color: $white;
+$site-info-bg-color: $yellow;
+$site-into-color: $dark-blue;

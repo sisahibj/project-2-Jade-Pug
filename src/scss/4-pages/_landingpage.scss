@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    transition: top 0.2s ease-in-out;
+}        
+
+.nav-up {
+    top: -40px; 
+}
+
+
+.main-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    .heading{
+        margin: auto;
+
+        .header-logo{
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .header{
+            margin-top: -20px;
+            margin-bottom: 250px;
+        }
+    }
+}
+
+ul > li > h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.address{
+    margin-top: 170px;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.addressFormat{
+    font-size: 30px;
+}
+
+ul.textcenter{
+    line-height: 20px;
+}
+
+.footer{
+    padding-top: 30px;
+}
+
+a:link{
+    color: $text-color;
+    text-decoration: none;
+}
+
+a:visited{
+    color: $text-color;
+}
